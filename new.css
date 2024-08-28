@@ -1,0 +1,117 @@
+*{
+   padding:0px;
+   margin: 0px;
+    background-color:  rgb(32,31,48);
+    font-family:Poppins,Arial;
+   
+}
+.top a{
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    margin:0 0 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight:500;
+    margin-top: 8vh;
+   
+}
+.top a:hover{
+    color: rgb(147, 108, 126);
+}
+.top{
+   
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    width: 100vw;
+  
+}
+.back img{
+    width: 50vw;
+    height:70vh;
+    object-fit: cover;
+    opacity: .5;
+   justify-items: center;
+   border-radius: 30px;
+   float: right;
+   margin-right: 50px;
+ 
+
+}
+.back{
+    margin-top:10px ;   
+}
+.logo img{
+    height: 40px;
+    width:auto;
+   margin-bottom:20px ;
+
+    
+   
+}
+.Sign-In input{
+   background:white;
+   padding-left: 20px;
+   padding-right:20px ;
+   font-size: 16px;
+   border-radius: 12px;
+   width: 30vw; 
+   border: none !important;
+    box-shadow: none !important;
+}
+.Sign-In button{
+    color: rgb(245, 189, 220);
+    background-color: rgb(245, 189, 220);
+    font-size: 16px;
+    padding:5px;
+    border-radius: 7px;
+    padding:10px;  
+    border: none !important;
+    box-shadow: none !important;
+    cursor:pointer;
+ 
+}
+.Sign-In {
+    height: 50px;
+    display:flex;  
+    gap: 10px;
+
+}
+.logo{
+    padding:30px 0px 0px 10vw;
+    top: 40px;
+    background-color: rgb(35, 35, 42);
+    
+}
+.text p{
+    font-size: 15px;
+    color: white;
+    margin: 25px 0px 60px 0px;
+ 
+  width: 30vw;
+  height: 15vh;
+  overflow:scroll;
+    
+}
+.watch button{
+    background:rgb(245, 189, 220);
+    color: rgb(12, 11, 11);
+   display: flex;
+   justify-content:space-between;
+   padding: 10px 20px;
+   font-size: 1.5vw;
+   font-weight: 600;
+   width: 20vw;
+   min-width: 10vh;
+  border-radius: 12px;
+  cursor: pointer;
+  height: 65px;
+  text-align: center;
+ box-shadow: none;
+ border: none !important;
+    box-shadow: none !important;
+ 
+ margin-bottom: 50px;
+ 
+}
